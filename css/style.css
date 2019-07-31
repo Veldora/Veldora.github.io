@@ -55,6 +55,11 @@ header.dark-bg{
 	text-align: start !important;
 }
 
+#payment {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
 .container,
 .container-fluid {
 	position: relative;
@@ -199,7 +204,7 @@ hr {
 }
 
 .intro-product {
-	height: 30vh;
+	height: 50vh;
 }
 
 .full-height {
