@@ -195,7 +195,7 @@ hr {
 }
 
 .intro-product {
-	background-position: center bottom !important;
+	height: 30vh;
 }
 
 .full-height {
@@ -255,6 +255,15 @@ hr {
 	padding-top: 250px;
 	padding-bottom: 250px;
 }
+
+@media (min-width: 1075px) {
+	.intro-product {
+
+		background-position: center bottom !important;
+
+	}
+}
+
 @media (max-width: 992px) {
 
 body {
