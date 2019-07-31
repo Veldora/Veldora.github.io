@@ -51,6 +51,10 @@ header.dark-bg{
 	border-bottom: none;
 }
 
+#about-us {
+	text-align: start !important;
+}
+
 .container,
 .container-fluid {
 	position: relative;
