@@ -278,7 +278,20 @@ hr {
 		position: relative;
 		padding-bottom: 85%;
 		height: 0;
-		overflow: scroll;
+	}
+	
+	@supports (-webkit-overflow-scrolling: touch) {
+	/* CSS specific to iOS devices */ 
+	.form-wrapper {
+		-webkit-overflow-scrolling: touch;
+	}
+	}
+	
+	@supports not (-webkit-overflow-scrolling: touch) {
+	/* CSS for other than iOS devices */ 
+	.form-wrapper {
+		overflow: hidden;
+	}
 	}
 	
 	.form-wrapper iframe {
