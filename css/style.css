@@ -283,7 +283,7 @@ hr {
 	@supports (-webkit-overflow-scrolling: touch) {
 	/* CSS specific to iOS devices */ 
 	.form-wrapper {
-		-webkit-overflow-scrolling: touch;
+		height: 1280px;
 	}
 	}
 	
