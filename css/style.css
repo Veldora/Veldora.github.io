@@ -279,6 +279,7 @@ hr {
 		padding-bottom: 85%;
 		height: 0;
 		overflow: hidden;
+		-webkit-overflow-scrolling: touch;
 	}
 	
 	.form-wrapper iframe {
