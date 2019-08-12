@@ -264,4 +264,6 @@ if($('.video-bg')[0]) {
         return false; 
     });	
 
+    window.scrollTo(0,0);
+
 });
